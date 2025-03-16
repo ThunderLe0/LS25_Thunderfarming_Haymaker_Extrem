@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<vehicle type="windrower" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
+<vehicle type="tedder" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
         <name>
@@ -375,28 +375,28 @@
         <workArea type="tedder" functionName="processTedderArea" disableBackwards="false">
             <area startNode="workAreaLeftFrontStart" widthNode="workAreaLeftFrontWidth" heightNode="workAreaLeftFrontHeight"/>
             <groundReferenceNode index="1"/>
-            <windrower dropWindrowWorkAreaIndex="5" particleSystemIndex="1"/>
+            <tedder dropWindrowWorkAreaIndex="5" particleSystemIndex="1"/>
             <testAreas autoGenerate="true" zOffset="0.5" xOffset="0" length="1.5" numAreas="3" areaWidthScale="0.25"/>
             <onlyActiveWhenLowered value="false"/>
         </workArea>
         <workArea type="tedder" functionName="processTedderArea" disableBackwards="false">
             <area startNode="workAreaRightFrontStart" widthNode="workAreaRightFrontWidth" heightNode="workAreaRightFrontHeight"/>
             <groundReferenceNode index="2"/>
-            <windrower dropWindrowWorkAreaIndex="6" particleSystemIndex="2"/>
+            <tedder dropWindrowWorkAreaIndex="6" particleSystemIndex="2"/>
             <testAreas autoGenerate="true" zOffset="0.5" xOffset="0" length="1.5" numAreas="3" areaWidthScale="0.25"/>
             <onlyActiveWhenLowered value="false"/>
         </workArea>
         <workArea type="tedder" functionName="processTedderArea" disableBackwards="false">
             <area startNode="workAreaLeftBackStart" widthNode="workAreaLeftBackWidth" heightNode="workAreaLeftBackHeight"/>
             <groundReferenceNode index="3"/>
-            <windrower dropWindrowWorkAreaIndex="7" particleSystemIndex="1"/>
+            <tedder dropWindrowWorkAreaIndex="7" particleSystemIndex="1"/>
             <testAreas autoGenerate="true" zOffset="0.5" xOffset="0" length="1.5" numAreas="3" areaWidthScale="0.25"/>
             <onlyActiveWhenLowered value="false"/>
         </workArea>
         <workArea type="tedder" functionName="processTedderArea" disableBackwards="false">
             <area startNode="workAreaRightBackStart" widthNode="workAreaRightBackWidth" heightNode="workAreaRightBackHeight"/>
             <groundReferenceNode index="4"/>
-            <windrower dropWindrowWorkAreaIndex="7" particleSystemIndex="2"/>
+            <tedder dropWindrowWorkAreaIndex="7" particleSystemIndex="2"/>
             <testAreas autoGenerate="true" zOffset="0.5" xOffset="0" length="1.5" numAreas="3" areaWidthScale="0.25"/>
             <onlyActiveWhenLowered value="false"/>
         </workArea>
@@ -778,7 +778,7 @@
             <movingPart node="supportArmSpring" referencePoint="supportArmSpringRef" referenceFrame="supportArmSpringRef" scaleZ="true"/>
         </movingParts>
     </cylindered>
-    <tedder fillTypeCategories="TEDDER">
+    <tedder fillTypeConverter="TEDDER">
         <animationNodes>
             <animationNode node="armLeftFrontRotor" rotSpeed="-250" rotAxis="2" class="RotationAnimationSpikes" turnOffFadeTime="3">
                 <spikes moveUpRange="0 100" moveDownRange="200 300" maxRot="75">
