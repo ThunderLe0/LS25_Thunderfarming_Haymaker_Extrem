@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="96">
+    <author>Leo</author>
+    <version>0.0.0.1</version>
+    <title>
+        <en>Haymaker Extrem</en>
+    </title>
+    <description>
+        <en><![CDATA[
+Category: Hay Windrowers
+Price: $92,000
+Required power: 120 hp
+Working width: 14m
+Working speed: 20 kph
+]]></en>
+<de><![CDATA[
+Shopkategorie: Heu Schwader
+Preis: 92.000€
+Benötigte Leistung: 120 PS
+Arbeitsbreite: 14m
+Arbeitsgeschwindigkeit: 20 km/h
+]]></de>
+    </description>
+    <iconFilename>store/icon_Haymaker_Extrem.png</iconFilename>
+    <storeItems>
+        <storeItem xmlFilename="xml/Haymaker_Extrem.xml"/>
+    </storeItems>
+    <brands>
+        <brand title="Thunderfarming" image="brand/brand_ThF.dds" name="Thunderfarming" />
+    </brands>
+    <multiplayer supported="true" />
+</modDesc>
